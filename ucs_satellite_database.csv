@@ -1,0 +1,1001 @@
+Name of Satellite,Country of Operator/Owner,Purpose,Class of Orbit,Date of Launch
+SAT-0,ESA,Earth Observation,LEO,2023-08-06
+SAT-1,USA,Navigation,GEO,2016-03-22
+SAT-2,ESA,Communications,LEO,2014-10-28
+SAT-3,Luxembourg,Communications,LEO,1998-04-04
+SAT-4,China,Communications,GEO,2018-03-03
+SAT-5,Luxembourg,Science,LEO,1991-12-27
+SAT-6,ESA,Earth Observation,LEO,1990-02-26
+SAT-7,USA,Science,Elliptical,2019-04-04
+SAT-8,Luxembourg,Science,MEO,2008-08-01
+SAT-9,USA,Science,Elliptical,2009-05-24
+SAT-10,ESA,Earth Observation,GEO,2013-02-20
+SAT-11,USA,Earth Observation,MEO,2022-05-14
+SAT-12,China,Science,GEO,1994-11-12
+SAT-13,China,Earth Observation,Elliptical,2008-04-13
+SAT-14,Russia,Science,GEO,2012-01-11
+SAT-15,Russia,Science,LEO,2022-07-26
+SAT-16,China,Communications,MEO,2017-12-05
+SAT-17,ESA,Navigation,MEO,2010-04-07
+SAT-18,ESA,Earth Observation,GEO,2022-04-19
+SAT-19,China,Science,MEO,2021-06-18
+SAT-20,Luxembourg,Earth Observation,Elliptical,2012-12-07
+SAT-21,USA,Science,GEO,1993-09-06
+SAT-22,Luxembourg,Earth Observation,GEO,2022-08-10
+SAT-23,China,Earth Observation,MEO,2005-12-19
+SAT-24,Russia,Science,GEO,2012-03-09
+SAT-25,Luxembourg,Earth Observation,MEO,2014-08-28
+SAT-26,Luxembourg,Communications,LEO,2017-01-06
+SAT-27,Russia,Communications,MEO,1993-03-28
+SAT-28,Russia,Navigation,MEO,2010-05-26
+SAT-29,Luxembourg,Earth Observation,MEO,2020-06-10
+SAT-30,China,Earth Observation,LEO,1992-02-11
+SAT-31,China,Communications,GEO,2012-09-16
+SAT-32,China,Communications,GEO,2009-12-20
+SAT-33,ESA,Science,MEO,2017-01-27
+SAT-34,USA,Navigation,LEO,1994-06-21
+SAT-35,ESA,Science,MEO,2013-07-02
+SAT-36,ESA,Communications,MEO,1998-05-20
+SAT-37,ESA,Navigation,GEO,1998-10-20
+SAT-38,China,Communications,MEO,2014-10-14
+SAT-39,ESA,Earth Observation,GEO,2022-01-07
+SAT-40,USA,Science,LEO,2001-03-28
+SAT-41,ESA,Navigation,Elliptical,2013-05-28
+SAT-42,ESA,Earth Observation,MEO,2014-03-15
+SAT-43,Luxembourg,Science,LEO,2012-10-06
+SAT-44,USA,Navigation,Elliptical,1999-08-17
+SAT-45,Russia,Science,GEO,1996-08-22
+SAT-46,USA,Earth Observation,Elliptical,2022-11-05
+SAT-47,ESA,Navigation,MEO,2020-07-01
+SAT-48,USA,Earth Observation,Elliptical,1998-06-18
+SAT-49,Russia,Communications,LEO,1999-10-28
+SAT-50,Luxembourg,Navigation,MEO,2020-09-19
+SAT-51,ESA,Navigation,GEO,2012-01-04
+SAT-52,Luxembourg,Navigation,GEO,2022-04-06
+SAT-53,USA,Navigation,LEO,1996-10-11
+SAT-54,Luxembourg,Science,LEO,2014-08-22
+SAT-55,USA,Communications,MEO,1996-10-18
+SAT-56,USA,Communications,Elliptical,2015-12-10
+SAT-57,USA,Earth Observation,Elliptical,2014-10-16
+SAT-58,ESA,Communications,GEO,2019-11-15
+SAT-59,China,Earth Observation,GEO,2018-08-27
+SAT-60,Russia,Earth Observation,LEO,2021-10-21
+SAT-61,Russia,Navigation,MEO,2021-06-05
+SAT-62,Russia,Earth Observation,Elliptical,2022-12-18
+SAT-63,Russia,Navigation,MEO,2004-12-22
+SAT-64,China,Science,MEO,2010-11-28
+SAT-65,China,Communications,Elliptical,1993-01-24
+SAT-66,Luxembourg,Communications,MEO,1994-06-05
+SAT-67,Russia,Earth Observation,LEO,2013-01-08
+SAT-68,Russia,Earth Observation,MEO,2002-10-19
+SAT-69,ESA,Navigation,LEO,2017-04-15
+SAT-70,China,Navigation,GEO,2021-01-23
+SAT-71,Luxembourg,Communications,GEO,2024-01-11
+SAT-72,Luxembourg,Earth Observation,MEO,1999-08-24
+SAT-73,Russia,Communications,Elliptical,1990-01-25
+SAT-74,ESA,Communications,GEO,2004-12-19
+SAT-75,USA,Science,GEO,1998-02-22
+SAT-76,Luxembourg,Earth Observation,LEO,2022-01-18
+SAT-77,Luxembourg,Communications,MEO,2014-05-09
+SAT-78,Luxembourg,Navigation,GEO,1995-02-08
+SAT-79,ESA,Communications,GEO,2018-10-26
+SAT-80,USA,Navigation,GEO,2009-11-18
+SAT-81,ESA,Earth Observation,GEO,1993-05-14
+SAT-82,ESA,Science,Elliptical,2023-07-20
+SAT-83,Luxembourg,Navigation,LEO,1993-06-02
+SAT-84,ESA,Science,MEO,2003-02-13
+SAT-85,China,Science,MEO,1991-11-02
+SAT-86,China,Earth Observation,GEO,2013-01-06
+SAT-87,Russia,Earth Observation,MEO,1994-10-09
+SAT-88,USA,Communications,LEO,2022-07-16
+SAT-89,ESA,Science,LEO,1993-11-01
+SAT-90,Russia,Navigation,LEO,2023-12-20
+SAT-91,ESA,Navigation,Elliptical,1996-05-09
+SAT-92,Russia,Earth Observation,MEO,2001-03-23
+SAT-93,ESA,Navigation,MEO,1998-04-01
+SAT-94,Luxembourg,Earth Observation,LEO,2022-04-07
+SAT-95,ESA,Science,GEO,2002-10-09
+SAT-96,ESA,Earth Observation,LEO,2024-04-25
+SAT-97,China,Communications,LEO,1990-05-15
+SAT-98,Russia,Communications,MEO,2003-11-15
+SAT-99,USA,Science,LEO,2022-08-22
+SAT-100,USA,Earth Observation,GEO,2022-08-21
+SAT-101,USA,Communications,LEO,2010-09-19
+SAT-102,ESA,Science,LEO,2006-01-17
+SAT-103,Luxembourg,Communications,GEO,2014-03-03
+SAT-104,China,Earth Observation,LEO,2009-12-15
+SAT-105,Luxembourg,Communications,GEO,2018-11-24
+SAT-106,USA,Earth Observation,GEO,2022-04-12
+SAT-107,Luxembourg,Earth Observation,Elliptical,2003-01-20
+SAT-108,China,Communications,Elliptical,1995-04-28
+SAT-109,ESA,Science,GEO,2013-02-21
+SAT-110,ESA,Science,Elliptical,1999-01-24
+SAT-111,Russia,Science,MEO,2009-02-11
+SAT-112,ESA,Navigation,GEO,2015-04-12
+SAT-113,ESA,Navigation,Elliptical,2018-03-06
+SAT-114,ESA,Science,Elliptical,1990-12-16
+SAT-115,Russia,Science,LEO,1997-04-10
+SAT-116,Luxembourg,Navigation,LEO,1995-06-03
+SAT-117,Russia,Science,GEO,1999-05-04
+SAT-118,China,Science,GEO,2012-10-19
+SAT-119,USA,Communications,Elliptical,1990-06-26
+SAT-120,USA,Navigation,MEO,1993-11-07
+SAT-121,China,Earth Observation,MEO,2020-02-28
+SAT-122,Luxembourg,Communications,Elliptical,2013-12-03
+SAT-123,ESA,Science,Elliptical,2023-03-04
+SAT-124,Luxembourg,Communications,GEO,2018-04-04
+SAT-125,USA,Earth Observation,LEO,2009-10-02
+SAT-126,USA,Communications,LEO,2008-04-12
+SAT-127,Russia,Science,GEO,2002-03-10
+SAT-128,USA,Science,MEO,2014-07-04
+SAT-129,ESA,Navigation,GEO,1995-09-06
+SAT-130,Russia,Communications,LEO,2014-04-05
+SAT-131,Luxembourg,Earth Observation,GEO,1993-04-07
+SAT-132,China,Communications,LEO,2017-03-08
+SAT-133,China,Communications,LEO,2020-11-01
+SAT-134,Russia,Earth Observation,GEO,1995-09-08
+SAT-135,ESA,Navigation,MEO,1995-02-28
+SAT-136,Luxembourg,Science,Elliptical,2000-02-22
+SAT-137,Russia,Communications,MEO,2007-10-12
+SAT-138,Luxembourg,Earth Observation,MEO,2023-03-02
+SAT-139,China,Navigation,GEO,2007-03-04
+SAT-140,ESA,Earth Observation,Elliptical,2014-03-17
+SAT-141,Russia,Science,GEO,2009-11-11
+SAT-142,Luxembourg,Earth Observation,MEO,1990-12-12
+SAT-143,China,Communications,Elliptical,1996-01-15
+SAT-144,China,Earth Observation,GEO,1998-03-23
+SAT-145,China,Science,MEO,2006-04-19
+SAT-146,Luxembourg,Earth Observation,GEO,2014-06-09
+SAT-147,ESA,Science,MEO,2002-04-08
+SAT-148,ESA,Communications,Elliptical,2018-06-15
+SAT-149,ESA,Science,LEO,2002-08-17
+SAT-150,Luxembourg,Science,GEO,1995-12-15
+SAT-151,Russia,Communications,LEO,1996-05-12
+SAT-152,Russia,Earth Observation,Elliptical,2003-01-27
+SAT-153,ESA,Navigation,LEO,2001-03-03
+SAT-154,Russia,Science,MEO,2013-07-08
+SAT-155,ESA,Navigation,Elliptical,1997-09-15
+SAT-156,China,Navigation,MEO,2013-08-19
+SAT-157,USA,Navigation,LEO,2016-05-16
+SAT-158,Russia,Communications,Elliptical,2008-07-10
+SAT-159,USA,Science,MEO,1997-08-01
+SAT-160,Russia,Navigation,LEO,1999-12-14
+SAT-161,Russia,Navigation,Elliptical,1998-10-04
+SAT-162,USA,Communications,Elliptical,2000-12-09
+SAT-163,ESA,Earth Observation,LEO,2023-03-15
+SAT-164,China,Science,LEO,2014-09-12
+SAT-165,Russia,Earth Observation,Elliptical,2007-08-12
+SAT-166,USA,Earth Observation,GEO,1998-04-15
+SAT-167,Luxembourg,Communications,GEO,2002-10-13
+SAT-168,Luxembourg,Earth Observation,GEO,2003-03-23
+SAT-169,ESA,Communications,MEO,2013-10-09
+SAT-170,China,Communications,GEO,2009-08-15
+SAT-171,China,Science,MEO,2022-06-04
+SAT-172,ESA,Communications,GEO,2005-12-27
+SAT-173,USA,Earth Observation,GEO,2011-02-20
+SAT-174,Russia,Science,LEO,2021-04-20
+SAT-175,Russia,Science,Elliptical,1999-04-16
+SAT-176,Luxembourg,Navigation,MEO,1994-12-10
+SAT-177,China,Earth Observation,LEO,1996-11-10
+SAT-178,USA,Navigation,LEO,1997-07-04
+SAT-179,China,Earth Observation,MEO,2022-12-09
+SAT-180,USA,Communications,GEO,2013-03-02
+SAT-181,Russia,Communications,Elliptical,2024-07-09
+SAT-182,China,Navigation,Elliptical,1997-03-22
+SAT-183,ESA,Communications,MEO,2018-05-08
+SAT-184,Russia,Navigation,LEO,2021-05-16
+SAT-185,USA,Navigation,LEO,2005-08-04
+SAT-186,USA,Science,LEO,1992-05-17
+SAT-187,Luxembourg,Earth Observation,Elliptical,2001-07-13
+SAT-188,Luxembourg,Earth Observation,Elliptical,2019-02-27
+SAT-189,Russia,Earth Observation,GEO,2015-08-06
+SAT-190,USA,Science,GEO,1992-10-21
+SAT-191,ESA,Communications,MEO,2023-04-13
+SAT-192,Russia,Science,Elliptical,2001-05-19
+SAT-193,USA,Science,GEO,1998-04-07
+SAT-194,Russia,Science,MEO,2013-02-12
+SAT-195,China,Navigation,MEO,1996-06-26
+SAT-196,USA,Navigation,LEO,2014-09-14
+SAT-197,Luxembourg,Earth Observation,MEO,2018-04-07
+SAT-198,USA,Navigation,Elliptical,1997-06-25
+SAT-199,China,Earth Observation,LEO,1992-05-10
+SAT-200,ESA,Science,GEO,1995-09-01
+SAT-201,Russia,Science,MEO,2022-08-26
+SAT-202,Russia,Communications,MEO,1994-04-01
+SAT-203,USA,Communications,MEO,2001-01-07
+SAT-204,Russia,Communications,MEO,2024-11-21
+SAT-205,Russia,Navigation,GEO,2017-06-02
+SAT-206,USA,Navigation,MEO,2007-06-06
+SAT-207,China,Earth Observation,Elliptical,1994-03-10
+SAT-208,ESA,Earth Observation,GEO,2013-01-21
+SAT-209,ESA,Earth Observation,GEO,1996-08-03
+SAT-210,ESA,Navigation,MEO,2000-09-23
+SAT-211,USA,Science,Elliptical,2016-04-01
+SAT-212,Russia,Navigation,Elliptical,1999-08-12
+SAT-213,Luxembourg,Navigation,MEO,2020-03-24
+SAT-214,ESA,Earth Observation,MEO,2021-08-07
+SAT-215,China,Science,LEO,2006-11-02
+SAT-216,China,Communications,GEO,2012-10-17
+SAT-217,ESA,Science,GEO,1993-03-18
+SAT-218,USA,Navigation,Elliptical,2016-10-07
+SAT-219,Russia,Navigation,LEO,2012-01-17
+SAT-220,Russia,Science,Elliptical,2000-11-25
+SAT-221,China,Science,Elliptical,2020-11-03
+SAT-222,Russia,Communications,LEO,2010-02-27
+SAT-223,ESA,Earth Observation,MEO,1998-07-23
+SAT-224,China,Science,LEO,1990-03-28
+SAT-225,Luxembourg,Earth Observation,MEO,2024-10-11
+SAT-226,Luxembourg,Science,LEO,2012-01-16
+SAT-227,Russia,Science,LEO,2011-03-05
+SAT-228,USA,Navigation,GEO,1992-01-26
+SAT-229,Russia,Science,MEO,1991-06-18
+SAT-230,China,Science,GEO,2005-08-07
+SAT-231,ESA,Navigation,LEO,2005-06-03
+SAT-232,USA,Navigation,MEO,2001-07-21
+SAT-233,Luxembourg,Science,LEO,2019-09-26
+SAT-234,ESA,Communications,GEO,1995-08-07
+SAT-235,China,Communications,LEO,2021-12-04
+SAT-236,China,Communications,LEO,2023-12-03
+SAT-237,USA,Navigation,GEO,1994-01-06
+SAT-238,Luxembourg,Earth Observation,LEO,2017-06-01
+SAT-239,Luxembourg,Earth Observation,MEO,1996-10-27
+SAT-240,China,Earth Observation,MEO,1995-03-28
+SAT-241,China,Science,Elliptical,2011-01-27
+SAT-242,USA,Science,GEO,2024-04-14
+SAT-243,Luxembourg,Communications,GEO,2024-02-25
+SAT-244,USA,Communications,GEO,2022-06-28
+SAT-245,China,Earth Observation,LEO,2020-06-26
+SAT-246,USA,Communications,MEO,2019-10-02
+SAT-247,Russia,Science,GEO,2017-08-19
+SAT-248,USA,Communications,LEO,2010-01-13
+SAT-249,ESA,Navigation,MEO,2012-04-15
+SAT-250,ESA,Communications,GEO,1996-05-05
+SAT-251,Russia,Navigation,GEO,2012-07-09
+SAT-252,China,Communications,Elliptical,2023-07-05
+SAT-253,USA,Earth Observation,MEO,2018-07-08
+SAT-254,Luxembourg,Earth Observation,LEO,2005-09-06
+SAT-255,Luxembourg,Communications,GEO,2019-02-20
+SAT-256,Russia,Communications,Elliptical,1997-01-20
+SAT-257,China,Navigation,Elliptical,2019-01-04
+SAT-258,ESA,Navigation,GEO,2012-12-22
+SAT-259,ESA,Communications,GEO,2001-03-22
+SAT-260,ESA,Science,GEO,2023-07-02
+SAT-261,China,Navigation,LEO,1996-01-01
+SAT-262,China,Navigation,LEO,2008-02-26
+SAT-263,China,Science,LEO,1993-03-21
+SAT-264,Luxembourg,Earth Observation,MEO,2019-08-24
+SAT-265,China,Navigation,MEO,2004-01-01
+SAT-266,Luxembourg,Science,Elliptical,1995-01-12
+SAT-267,Luxembourg,Navigation,MEO,2019-11-19
+SAT-268,Russia,Communications,GEO,2019-12-06
+SAT-269,USA,Navigation,GEO,2023-10-04
+SAT-270,Russia,Communications,LEO,1996-07-22
+SAT-271,China,Science,MEO,2006-06-25
+SAT-272,Russia,Communications,GEO,2007-09-12
+SAT-273,Russia,Navigation,Elliptical,1993-08-11
+SAT-274,ESA,Communications,LEO,2002-05-06
+SAT-275,ESA,Earth Observation,Elliptical,2023-11-22
+SAT-276,USA,Communications,LEO,1992-05-03
+SAT-277,ESA,Navigation,MEO,1997-04-10
+SAT-278,China,Earth Observation,LEO,2022-04-12
+SAT-279,USA,Navigation,MEO,2007-09-02
+SAT-280,ESA,Communications,MEO,2002-06-03
+SAT-281,Russia,Communications,MEO,1992-11-22
+SAT-282,China,Science,Elliptical,1997-07-10
+SAT-283,Russia,Navigation,MEO,2022-08-07
+SAT-284,ESA,Science,GEO,2000-10-22
+SAT-285,Russia,Communications,Elliptical,2007-10-13
+SAT-286,China,Communications,LEO,2004-01-02
+SAT-287,China,Science,MEO,1999-07-21
+SAT-288,USA,Earth Observation,LEO,1996-02-10
+SAT-289,USA,Science,Elliptical,2005-10-18
+SAT-290,ESA,Science,GEO,1995-01-13
+SAT-291,USA,Science,Elliptical,1998-12-08
+SAT-292,Luxembourg,Science,LEO,1993-07-13
+SAT-293,ESA,Navigation,Elliptical,1993-04-17
+SAT-294,ESA,Navigation,Elliptical,2017-09-03
+SAT-295,Luxembourg,Science,GEO,1991-07-08
+SAT-296,Russia,Communications,LEO,2021-02-02
+SAT-297,ESA,Science,LEO,2022-08-22
+SAT-298,Russia,Science,MEO,2018-05-04
+SAT-299,USA,Earth Observation,LEO,2006-08-27
+SAT-300,China,Navigation,MEO,2012-03-19
+SAT-301,ESA,Navigation,MEO,2020-05-11
+SAT-302,Russia,Earth Observation,MEO,2007-01-01
+SAT-303,Luxembourg,Navigation,MEO,1996-06-04
+SAT-304,Russia,Earth Observation,Elliptical,2001-11-05
+SAT-305,Russia,Earth Observation,GEO,2001-12-06
+SAT-306,Luxembourg,Science,Elliptical,2010-08-04
+SAT-307,ESA,Navigation,MEO,2008-11-16
+SAT-308,Russia,Science,Elliptical,2008-12-03
+SAT-309,China,Navigation,LEO,2010-11-13
+SAT-310,Russia,Earth Observation,MEO,1992-01-25
+SAT-311,USA,Earth Observation,Elliptical,2017-12-08
+SAT-312,Russia,Communications,Elliptical,2013-06-11
+SAT-313,ESA,Earth Observation,LEO,2003-01-15
+SAT-314,USA,Earth Observation,GEO,2022-09-26
+SAT-315,ESA,Communications,Elliptical,2006-06-08
+SAT-316,Russia,Navigation,MEO,2010-03-19
+SAT-317,China,Navigation,MEO,2001-07-20
+SAT-318,ESA,Communications,MEO,2011-05-16
+SAT-319,USA,Earth Observation,GEO,1997-02-05
+SAT-320,Luxembourg,Earth Observation,GEO,2019-09-12
+SAT-321,USA,Communications,MEO,1994-05-06
+SAT-322,China,Science,MEO,2015-10-17
+SAT-323,China,Communications,Elliptical,2009-12-03
+SAT-324,ESA,Communications,GEO,1997-10-24
+SAT-325,Russia,Earth Observation,Elliptical,2022-05-06
+SAT-326,Luxembourg,Science,GEO,2018-03-22
+SAT-327,ESA,Navigation,LEO,2014-04-07
+SAT-328,Luxembourg,Earth Observation,Elliptical,1998-03-22
+SAT-329,ESA,Navigation,Elliptical,2004-03-27
+SAT-330,Luxembourg,Navigation,LEO,2002-07-03
+SAT-331,China,Science,LEO,2019-02-19
+SAT-332,China,Navigation,LEO,2005-08-22
+SAT-333,China,Science,LEO,2009-04-13
+SAT-334,Russia,Communications,GEO,2007-11-19
+SAT-335,Luxembourg,Navigation,LEO,1996-07-17
+SAT-336,ESA,Science,Elliptical,1998-12-07
+SAT-337,Russia,Earth Observation,Elliptical,2007-05-22
+SAT-338,ESA,Communications,MEO,1992-04-22
+SAT-339,ESA,Communications,MEO,2022-11-16
+SAT-340,China,Earth Observation,GEO,2021-09-11
+SAT-341,ESA,Navigation,Elliptical,2005-04-01
+SAT-342,Russia,Communications,LEO,2021-10-02
+SAT-343,Luxembourg,Communications,LEO,2005-02-03
+SAT-344,ESA,Earth Observation,LEO,2016-04-11
+SAT-345,China,Communications,GEO,1994-10-18
+SAT-346,Luxembourg,Navigation,MEO,2010-07-10
+SAT-347,Russia,Communications,LEO,2000-09-27
+SAT-348,ESA,Communications,Elliptical,2023-12-13
+SAT-349,Russia,Navigation,GEO,2010-03-16
+SAT-350,USA,Communications,GEO,2013-11-06
+SAT-351,China,Science,Elliptical,2000-01-23
+SAT-352,ESA,Science,MEO,2019-11-12
+SAT-353,China,Communications,LEO,2020-06-12
+SAT-354,Russia,Science,MEO,2024-07-01
+SAT-355,Luxembourg,Science,LEO,2006-02-19
+SAT-356,USA,Science,MEO,2004-12-17
+SAT-357,ESA,Science,LEO,2011-03-05
+SAT-358,USA,Science,Elliptical,1999-11-06
+SAT-359,USA,Communications,MEO,1994-09-26
+SAT-360,Luxembourg,Earth Observation,Elliptical,2010-05-01
+SAT-361,Russia,Science,Elliptical,2003-02-19
+SAT-362,China,Communications,MEO,2009-01-08
+SAT-363,ESA,Navigation,GEO,1996-12-21
+SAT-364,Russia,Science,MEO,2000-10-05
+SAT-365,Luxembourg,Science,MEO,2022-02-24
+SAT-366,Russia,Communications,LEO,2001-05-14
+SAT-367,China,Communications,GEO,2024-10-01
+SAT-368,ESA,Communications,GEO,1992-05-17
+SAT-369,USA,Communications,LEO,2013-03-15
+SAT-370,ESA,Navigation,MEO,2011-02-14
+SAT-371,ESA,Navigation,MEO,1992-11-16
+SAT-372,USA,Science,GEO,2001-10-25
+SAT-373,ESA,Navigation,Elliptical,2016-09-24
+SAT-374,Luxembourg,Navigation,GEO,2023-02-28
+SAT-375,ESA,Earth Observation,LEO,2015-12-02
+SAT-376,Russia,Earth Observation,LEO,2004-06-06
+SAT-377,USA,Communications,MEO,1997-02-20
+SAT-378,Russia,Earth Observation,Elliptical,1993-01-28
+SAT-379,ESA,Communications,MEO,2022-08-19
+SAT-380,USA,Science,Elliptical,2001-01-18
+SAT-381,USA,Navigation,GEO,2004-07-03
+SAT-382,Russia,Science,MEO,1998-10-25
+SAT-383,ESA,Science,MEO,1995-10-07
+SAT-384,Russia,Earth Observation,GEO,2004-05-07
+SAT-385,Luxembourg,Science,MEO,2003-09-09
+SAT-386,Luxembourg,Science,LEO,2015-02-03
+SAT-387,Russia,Communications,Elliptical,2006-08-16
+SAT-388,USA,Navigation,Elliptical,2016-02-11
+SAT-389,Russia,Earth Observation,GEO,2002-05-21
+SAT-390,Russia,Earth Observation,GEO,2012-02-25
+SAT-391,Luxembourg,Communications,LEO,2015-07-15
+SAT-392,Russia,Earth Observation,Elliptical,2005-12-19
+SAT-393,Luxembourg,Navigation,MEO,2022-04-21
+SAT-394,USA,Navigation,GEO,2004-09-07
+SAT-395,China,Earth Observation,GEO,2002-02-08
+SAT-396,USA,Navigation,GEO,2023-06-15
+SAT-397,USA,Navigation,LEO,1995-11-15
+SAT-398,USA,Earth Observation,Elliptical,2003-05-28
+SAT-399,Russia,Science,LEO,1999-03-06
+SAT-400,ESA,Earth Observation,MEO,1990-02-14
+SAT-401,USA,Earth Observation,MEO,2014-09-11
+SAT-402,ESA,Earth Observation,MEO,1990-11-23
+SAT-403,USA,Navigation,GEO,2011-11-02
+SAT-404,China,Navigation,Elliptical,2003-04-03
+SAT-405,Luxembourg,Communications,GEO,2015-02-27
+SAT-406,China,Navigation,Elliptical,2005-03-18
+SAT-407,Luxembourg,Communications,Elliptical,1990-11-03
+SAT-408,China,Navigation,LEO,2012-07-19
+SAT-409,Luxembourg,Earth Observation,MEO,1998-12-01
+SAT-410,Russia,Communications,MEO,2001-03-15
+SAT-411,Russia,Communications,Elliptical,2004-01-13
+SAT-412,Russia,Communications,MEO,2022-09-12
+SAT-413,China,Earth Observation,Elliptical,1990-09-21
+SAT-414,China,Science,MEO,2006-07-21
+SAT-415,China,Science,Elliptical,2013-09-18
+SAT-416,China,Earth Observation,LEO,1994-03-11
+SAT-417,Russia,Navigation,LEO,1997-02-01
+SAT-418,Russia,Science,Elliptical,2023-10-18
+SAT-419,ESA,Navigation,MEO,1998-08-25
+SAT-420,Luxembourg,Science,MEO,2011-03-19
+SAT-421,Russia,Science,GEO,2012-07-10
+SAT-422,USA,Navigation,Elliptical,2004-06-08
+SAT-423,Russia,Navigation,LEO,1997-11-26
+SAT-424,Luxembourg,Science,GEO,2020-02-06
+SAT-425,Russia,Science,LEO,2012-02-10
+SAT-426,USA,Earth Observation,Elliptical,2017-11-03
+SAT-427,USA,Earth Observation,LEO,1999-06-14
+SAT-428,USA,Science,GEO,1993-09-24
+SAT-429,Luxembourg,Earth Observation,GEO,2014-03-25
+SAT-430,ESA,Communications,MEO,2004-10-15
+SAT-431,ESA,Science,GEO,1997-09-12
+SAT-432,Russia,Navigation,LEO,2001-08-18
+SAT-433,USA,Navigation,MEO,1997-01-27
+SAT-434,USA,Science,GEO,2009-04-18
+SAT-435,ESA,Communications,MEO,2024-05-15
+SAT-436,USA,Navigation,MEO,2020-02-24
+SAT-437,Luxembourg,Science,MEO,2012-01-10
+SAT-438,Luxembourg,Science,MEO,1996-01-17
+SAT-439,Luxembourg,Communications,Elliptical,2020-01-13
+SAT-440,USA,Communications,Elliptical,2004-09-28
+SAT-441,Luxembourg,Communications,LEO,2006-02-19
+SAT-442,USA,Communications,MEO,2013-08-24
+SAT-443,Russia,Earth Observation,LEO,1997-01-19
+SAT-444,USA,Earth Observation,Elliptical,2011-09-03
+SAT-445,Russia,Navigation,GEO,2010-05-08
+SAT-446,ESA,Science,Elliptical,1993-05-25
+SAT-447,ESA,Navigation,Elliptical,2011-08-13
+SAT-448,Luxembourg,Communications,LEO,2002-02-19
+SAT-449,USA,Navigation,MEO,2005-10-20
+SAT-450,Russia,Communications,GEO,2014-10-27
+SAT-451,Russia,Earth Observation,MEO,2022-12-17
+SAT-452,Luxembourg,Communications,MEO,2004-10-28
+SAT-453,USA,Communications,GEO,2011-10-14
+SAT-454,Luxembourg,Navigation,GEO,1994-06-26
+SAT-455,ESA,Communications,LEO,2002-05-28
+SAT-456,Russia,Earth Observation,LEO,2018-02-28
+SAT-457,Russia,Navigation,Elliptical,1994-10-27
+SAT-458,USA,Communications,MEO,1990-09-27
+SAT-459,ESA,Communications,GEO,2004-03-26
+SAT-460,Russia,Science,MEO,2016-12-02
+SAT-461,USA,Navigation,LEO,2022-03-18
+SAT-462,Russia,Communications,GEO,2022-01-08
+SAT-463,China,Communications,LEO,1996-01-12
+SAT-464,Russia,Science,GEO,2007-03-27
+SAT-465,China,Earth Observation,GEO,1997-07-25
+SAT-466,Luxembourg,Science,Elliptical,1996-06-14
+SAT-467,USA,Science,LEO,2009-04-11
+SAT-468,USA,Science,LEO,2024-11-04
+SAT-469,ESA,Earth Observation,GEO,2014-06-20
+SAT-470,China,Earth Observation,LEO,2016-02-15
+SAT-471,Luxembourg,Navigation,MEO,2007-06-11
+SAT-472,China,Earth Observation,LEO,2001-03-03
+SAT-473,Russia,Communications,GEO,2014-08-23
+SAT-474,Luxembourg,Communications,Elliptical,2004-08-09
+SAT-475,USA,Science,GEO,2015-10-22
+SAT-476,ESA,Science,Elliptical,2002-11-01
+SAT-477,Russia,Earth Observation,Elliptical,1995-08-19
+SAT-478,ESA,Communications,LEO,2014-06-26
+SAT-479,China,Earth Observation,GEO,2004-09-13
+SAT-480,USA,Science,Elliptical,2010-10-13
+SAT-481,Russia,Earth Observation,MEO,2000-02-09
+SAT-482,China,Navigation,GEO,2008-01-06
+SAT-483,China,Earth Observation,Elliptical,1999-02-03
+SAT-484,Luxembourg,Science,GEO,1995-09-24
+SAT-485,ESA,Navigation,Elliptical,2016-06-20
+SAT-486,USA,Science,MEO,1997-09-11
+SAT-487,Russia,Earth Observation,LEO,1991-08-08
+SAT-488,USA,Navigation,Elliptical,2014-01-13
+SAT-489,USA,Earth Observation,LEO,1990-03-28
+SAT-490,Russia,Navigation,MEO,2002-10-26
+SAT-491,ESA,Earth Observation,GEO,1998-06-03
+SAT-492,Russia,Science,MEO,2022-04-03
+SAT-493,Luxembourg,Navigation,MEO,2012-02-28
+SAT-494,USA,Navigation,Elliptical,2006-07-22
+SAT-495,USA,Communications,Elliptical,1993-09-10
+SAT-496,Luxembourg,Communications,MEO,2011-11-01
+SAT-497,Luxembourg,Navigation,Elliptical,2019-07-19
+SAT-498,USA,Navigation,GEO,2022-08-04
+SAT-499,ESA,Communications,LEO,2012-03-20
+SAT-500,China,Earth Observation,GEO,1999-06-18
+SAT-501,Luxembourg,Communications,Elliptical,2010-11-22
+SAT-502,Luxembourg,Navigation,Elliptical,2015-11-19
+SAT-503,China,Communications,GEO,2018-04-08
+SAT-504,USA,Earth Observation,LEO,1991-02-11
+SAT-505,Russia,Communications,LEO,2019-01-24
+SAT-506,Luxembourg,Communications,Elliptical,2012-02-22
+SAT-507,USA,Communications,LEO,2016-01-27
+SAT-508,China,Communications,Elliptical,2005-05-04
+SAT-509,China,Communications,GEO,2001-10-26
+SAT-510,China,Earth Observation,LEO,2000-04-24
+SAT-511,USA,Earth Observation,Elliptical,2021-07-04
+SAT-512,Luxembourg,Navigation,GEO,2007-01-14
+SAT-513,ESA,Communications,MEO,1998-10-26
+SAT-514,China,Science,MEO,2018-12-17
+SAT-515,China,Science,GEO,2015-04-01
+SAT-516,Luxembourg,Navigation,Elliptical,2013-05-26
+SAT-517,China,Communications,MEO,1998-05-02
+SAT-518,ESA,Communications,Elliptical,2019-08-21
+SAT-519,ESA,Science,MEO,2011-03-20
+SAT-520,USA,Communications,MEO,2004-11-14
+SAT-521,ESA,Communications,Elliptical,1991-12-23
+SAT-522,China,Communications,GEO,2003-12-24
+SAT-523,ESA,Navigation,Elliptical,2019-11-06
+SAT-524,China,Communications,Elliptical,2018-07-24
+SAT-525,Luxembourg,Navigation,Elliptical,2006-05-02
+SAT-526,China,Navigation,LEO,2019-08-01
+SAT-527,ESA,Navigation,MEO,2017-11-07
+SAT-528,China,Navigation,GEO,2003-10-07
+SAT-529,Luxembourg,Navigation,Elliptical,1991-03-01
+SAT-530,ESA,Science,Elliptical,2013-08-17
+SAT-531,USA,Communications,LEO,1994-02-20
+SAT-532,USA,Earth Observation,Elliptical,2015-02-27
+SAT-533,ESA,Science,GEO,2021-05-09
+SAT-534,USA,Navigation,Elliptical,2008-07-11
+SAT-535,Luxembourg,Navigation,MEO,2009-07-03
+SAT-536,Russia,Earth Observation,Elliptical,2019-08-28
+SAT-537,ESA,Navigation,MEO,2024-03-28
+SAT-538,USA,Communications,MEO,1999-05-16
+SAT-539,China,Earth Observation,GEO,2018-11-02
+SAT-540,Luxembourg,Earth Observation,MEO,2013-10-24
+SAT-541,Luxembourg,Navigation,GEO,2011-09-14
+SAT-542,China,Navigation,MEO,2023-07-12
+SAT-543,Russia,Earth Observation,LEO,2016-02-18
+SAT-544,USA,Earth Observation,GEO,2006-03-09
+SAT-545,Russia,Navigation,Elliptical,1996-05-12
+SAT-546,China,Earth Observation,GEO,1996-07-10
+SAT-547,Russia,Communications,GEO,2000-02-17
+SAT-548,China,Communications,GEO,2010-12-15
+SAT-549,Luxembourg,Communications,LEO,2015-06-24
+SAT-550,Russia,Communications,GEO,2023-12-07
+SAT-551,Luxembourg,Navigation,Elliptical,2002-12-09
+SAT-552,China,Earth Observation,Elliptical,2000-05-06
+SAT-553,USA,Communications,LEO,2006-08-22
+SAT-554,USA,Science,MEO,2023-08-19
+SAT-555,Russia,Navigation,LEO,2011-06-25
+SAT-556,ESA,Earth Observation,LEO,2021-05-23
+SAT-557,Russia,Navigation,GEO,2017-05-02
+SAT-558,USA,Science,LEO,2011-01-26
+SAT-559,ESA,Science,MEO,2002-06-13
+SAT-560,USA,Navigation,Elliptical,2005-08-22
+SAT-561,Luxembourg,Navigation,GEO,1991-11-12
+SAT-562,ESA,Communications,GEO,2005-07-20
+SAT-563,Luxembourg,Earth Observation,LEO,1991-11-15
+SAT-564,China,Science,LEO,2008-05-21
+SAT-565,USA,Communications,Elliptical,2021-03-26
+SAT-566,Russia,Communications,LEO,2011-03-06
+SAT-567,Luxembourg,Navigation,LEO,2013-02-13
+SAT-568,Luxembourg,Communications,LEO,2007-03-27
+SAT-569,Russia,Science,Elliptical,2020-06-18
+SAT-570,Russia,Science,MEO,1992-04-11
+SAT-571,Russia,Communications,GEO,1996-11-28
+SAT-572,ESA,Navigation,GEO,2000-03-09
+SAT-573,Russia,Communications,LEO,2017-09-24
+SAT-574,ESA,Science,Elliptical,2022-12-03
+SAT-575,Russia,Science,MEO,1997-07-08
+SAT-576,China,Communications,MEO,2024-02-10
+SAT-577,China,Communications,Elliptical,2015-06-16
+SAT-578,Russia,Earth Observation,GEO,2007-05-24
+SAT-579,China,Navigation,LEO,2020-04-03
+SAT-580,Russia,Earth Observation,MEO,1996-06-28
+SAT-581,China,Navigation,LEO,2011-04-24
+SAT-582,USA,Navigation,Elliptical,1990-04-19
+SAT-583,Luxembourg,Earth Observation,GEO,2019-05-01
+SAT-584,USA,Communications,GEO,2021-03-15
+SAT-585,USA,Earth Observation,MEO,2010-01-16
+SAT-586,USA,Earth Observation,LEO,1996-05-07
+SAT-587,USA,Navigation,Elliptical,1991-06-18
+SAT-588,USA,Navigation,Elliptical,2004-05-26
+SAT-589,USA,Navigation,LEO,2014-03-24
+SAT-590,Luxembourg,Science,Elliptical,2023-07-27
+SAT-591,Russia,Science,Elliptical,2013-09-24
+SAT-592,USA,Earth Observation,Elliptical,2023-07-07
+SAT-593,Russia,Navigation,GEO,1991-12-19
+SAT-594,Luxembourg,Science,MEO,1996-09-04
+SAT-595,Luxembourg,Navigation,Elliptical,2022-05-24
+SAT-596,Russia,Earth Observation,GEO,1990-07-10
+SAT-597,USA,Navigation,LEO,2024-11-24
+SAT-598,ESA,Communications,MEO,2016-03-05
+SAT-599,USA,Navigation,LEO,2022-01-07
+SAT-600,Russia,Communications,MEO,1992-07-15
+SAT-601,Russia,Science,MEO,1991-01-26
+SAT-602,Russia,Communications,Elliptical,2024-05-19
+SAT-603,Luxembourg,Navigation,MEO,2010-06-26
+SAT-604,China,Communications,LEO,1995-05-02
+SAT-605,ESA,Navigation,LEO,2002-01-10
+SAT-606,ESA,Navigation,MEO,1994-10-21
+SAT-607,USA,Navigation,MEO,1994-03-28
+SAT-608,Luxembourg,Earth Observation,Elliptical,2002-05-08
+SAT-609,Russia,Communications,LEO,1992-10-28
+SAT-610,USA,Science,MEO,2006-03-24
+SAT-611,Russia,Navigation,MEO,1994-09-21
+SAT-612,China,Science,Elliptical,2004-05-05
+SAT-613,China,Navigation,LEO,1990-04-23
+SAT-614,Luxembourg,Navigation,Elliptical,2003-06-22
+SAT-615,USA,Science,LEO,2016-05-04
+SAT-616,Russia,Earth Observation,Elliptical,2017-07-26
+SAT-617,China,Navigation,LEO,2018-05-21
+SAT-618,China,Navigation,GEO,2013-08-26
+SAT-619,USA,Communications,Elliptical,2001-06-21
+SAT-620,Luxembourg,Earth Observation,Elliptical,2016-06-09
+SAT-621,Luxembourg,Science,GEO,2005-02-12
+SAT-622,Russia,Communications,Elliptical,2002-05-02
+SAT-623,China,Science,LEO,2012-12-17
+SAT-624,Russia,Science,LEO,2023-01-25
+SAT-625,Russia,Science,GEO,1995-08-28
+SAT-626,ESA,Earth Observation,LEO,2003-05-26
+SAT-627,ESA,Navigation,MEO,1992-05-18
+SAT-628,ESA,Science,Elliptical,2000-09-17
+SAT-629,ESA,Earth Observation,MEO,2003-08-19
+SAT-630,USA,Communications,MEO,2007-12-19
+SAT-631,USA,Science,GEO,2022-08-14
+SAT-632,Luxembourg,Communications,Elliptical,2016-10-02
+SAT-633,Luxembourg,Navigation,GEO,2013-05-20
+SAT-634,USA,Earth Observation,GEO,2011-10-07
+SAT-635,ESA,Communications,LEO,1996-08-14
+SAT-636,USA,Earth Observation,LEO,2004-06-25
+SAT-637,ESA,Navigation,GEO,2023-12-19
+SAT-638,Russia,Navigation,GEO,2001-02-02
+SAT-639,China,Communications,LEO,1992-08-22
+SAT-640,ESA,Science,LEO,2024-04-17
+SAT-641,Russia,Communications,GEO,2022-02-21
+SAT-642,China,Science,MEO,2011-01-01
+SAT-643,Luxembourg,Earth Observation,Elliptical,1996-09-11
+SAT-644,Luxembourg,Navigation,Elliptical,2016-04-28
+SAT-645,Luxembourg,Earth Observation,Elliptical,2011-05-01
+SAT-646,Luxembourg,Navigation,Elliptical,2005-01-14
+SAT-647,China,Earth Observation,Elliptical,2010-03-12
+SAT-648,China,Science,MEO,1991-09-07
+SAT-649,USA,Earth Observation,Elliptical,1991-05-18
+SAT-650,Luxembourg,Communications,Elliptical,2014-12-09
+SAT-651,Luxembourg,Navigation,GEO,2008-07-28
+SAT-652,Luxembourg,Navigation,Elliptical,2008-09-22
+SAT-653,Russia,Navigation,MEO,1999-04-26
+SAT-654,USA,Navigation,GEO,1991-06-01
+SAT-655,USA,Navigation,Elliptical,2009-12-03
+SAT-656,Russia,Science,GEO,2016-10-07
+SAT-657,ESA,Navigation,MEO,2023-06-17
+SAT-658,USA,Earth Observation,Elliptical,2009-06-01
+SAT-659,ESA,Communications,LEO,2015-01-09
+SAT-660,Russia,Navigation,LEO,2007-10-05
+SAT-661,ESA,Science,GEO,1991-08-19
+SAT-662,USA,Navigation,GEO,1990-07-04
+SAT-663,USA,Earth Observation,Elliptical,2022-04-12
+SAT-664,China,Earth Observation,Elliptical,2005-10-14
+SAT-665,USA,Earth Observation,MEO,2011-08-07
+SAT-666,USA,Navigation,Elliptical,2011-10-15
+SAT-667,ESA,Navigation,LEO,2001-10-13
+SAT-668,Russia,Communications,MEO,1993-01-15
+SAT-669,China,Science,GEO,2016-06-14
+SAT-670,Luxembourg,Navigation,Elliptical,1998-04-20
+SAT-671,ESA,Science,LEO,2007-09-03
+SAT-672,USA,Earth Observation,MEO,2012-01-18
+SAT-673,USA,Science,GEO,2015-08-12
+SAT-674,Luxembourg,Science,Elliptical,2006-08-06
+SAT-675,Luxembourg,Communications,MEO,2004-07-09
+SAT-676,Luxembourg,Communications,MEO,2002-04-15
+SAT-677,Russia,Navigation,Elliptical,2010-06-23
+SAT-678,China,Science,GEO,2014-03-18
+SAT-679,ESA,Navigation,GEO,2000-04-16
+SAT-680,ESA,Navigation,GEO,1992-08-26
+SAT-681,USA,Navigation,MEO,2016-03-03
+SAT-682,China,Science,MEO,1997-04-06
+SAT-683,Russia,Science,MEO,1993-03-17
+SAT-684,Luxembourg,Communications,Elliptical,1999-09-27
+SAT-685,ESA,Science,MEO,2002-03-11
+SAT-686,ESA,Navigation,MEO,2004-04-28
+SAT-687,ESA,Science,LEO,1991-01-03
+SAT-688,China,Communications,LEO,1992-11-20
+SAT-689,USA,Earth Observation,Elliptical,1997-05-18
+SAT-690,Luxembourg,Earth Observation,LEO,2007-04-03
+SAT-691,China,Science,MEO,1998-05-07
+SAT-692,USA,Earth Observation,LEO,2011-10-06
+SAT-693,Russia,Navigation,GEO,2008-05-27
+SAT-694,Russia,Earth Observation,MEO,1991-09-17
+SAT-695,China,Communications,GEO,2006-04-24
+SAT-696,China,Earth Observation,MEO,2011-10-13
+SAT-697,ESA,Earth Observation,GEO,2002-09-08
+SAT-698,USA,Navigation,LEO,2010-08-13
+SAT-699,China,Communications,MEO,2005-03-04
+SAT-700,China,Science,GEO,1990-03-12
+SAT-701,Russia,Science,Elliptical,2006-06-09
+SAT-702,Russia,Science,LEO,2019-04-17
+SAT-703,Russia,Science,GEO,2022-08-16
+SAT-704,Russia,Earth Observation,GEO,2008-08-15
+SAT-705,ESA,Science,GEO,2021-09-21
+SAT-706,USA,Communications,Elliptical,2014-08-04
+SAT-707,Luxembourg,Navigation,LEO,1991-02-14
+SAT-708,ESA,Earth Observation,Elliptical,2013-11-27
+SAT-709,Russia,Science,LEO,2011-02-06
+SAT-710,Russia,Science,Elliptical,2015-10-09
+SAT-711,USA,Communications,GEO,2021-01-26
+SAT-712,ESA,Earth Observation,GEO,2013-06-22
+SAT-713,USA,Navigation,MEO,2019-05-08
+SAT-714,ESA,Science,GEO,2015-10-19
+SAT-715,China,Science,MEO,1994-06-16
+SAT-716,China,Science,LEO,2018-02-05
+SAT-717,USA,Navigation,MEO,2020-05-24
+SAT-718,ESA,Science,LEO,1990-01-11
+SAT-719,China,Science,Elliptical,2009-01-21
+SAT-720,Luxembourg,Communications,MEO,2016-06-08
+SAT-721,USA,Communications,GEO,2024-09-25
+SAT-722,China,Science,GEO,1994-08-11
+SAT-723,USA,Earth Observation,Elliptical,2009-06-26
+SAT-724,Luxembourg,Earth Observation,Elliptical,2021-12-23
+SAT-725,Russia,Earth Observation,Elliptical,2001-11-15
+SAT-726,China,Science,MEO,2001-04-03
+SAT-727,ESA,Science,GEO,2007-11-03
+SAT-728,Russia,Navigation,LEO,1991-04-26
+SAT-729,USA,Communications,LEO,2019-11-11
+SAT-730,China,Communications,LEO,2015-06-20
+SAT-731,Russia,Navigation,LEO,1998-04-13
+SAT-732,China,Science,LEO,2019-03-19
+SAT-733,Russia,Communications,LEO,2014-11-12
+SAT-734,Russia,Navigation,GEO,1997-09-21
+SAT-735,Luxembourg,Science,GEO,2011-02-25
+SAT-736,USA,Navigation,Elliptical,2015-07-28
+SAT-737,Russia,Science,GEO,2002-01-07
+SAT-738,China,Navigation,LEO,2024-08-23
+SAT-739,Luxembourg,Navigation,Elliptical,2014-02-21
+SAT-740,ESA,Science,MEO,2002-07-14
+SAT-741,China,Science,LEO,1990-11-12
+SAT-742,USA,Science,MEO,2014-12-23
+SAT-743,China,Navigation,GEO,1994-06-16
+SAT-744,China,Science,GEO,2021-04-22
+SAT-745,ESA,Earth Observation,Elliptical,2021-09-23
+SAT-746,China,Navigation,GEO,1999-05-02
+SAT-747,ESA,Earth Observation,MEO,1999-11-28
+SAT-748,ESA,Earth Observation,GEO,2007-07-26
+SAT-749,USA,Communications,Elliptical,1993-07-01
+SAT-750,ESA,Science,MEO,2014-05-21
+SAT-751,ESA,Navigation,GEO,1996-06-17
+SAT-752,Luxembourg,Navigation,LEO,2018-10-23
+SAT-753,USA,Communications,Elliptical,2019-12-25
+SAT-754,Russia,Navigation,MEO,2004-06-10
+SAT-755,Russia,Communications,Elliptical,1994-08-15
+SAT-756,Russia,Communications,Elliptical,2022-09-24
+SAT-757,China,Communications,MEO,1993-06-24
+SAT-758,ESA,Earth Observation,MEO,1998-09-17
+SAT-759,Luxembourg,Navigation,LEO,2014-05-16
+SAT-760,ESA,Science,GEO,1992-05-12
+SAT-761,China,Science,GEO,1993-04-01
+SAT-762,China,Science,MEO,1997-03-13
+SAT-763,Russia,Science,Elliptical,2020-11-02
+SAT-764,Russia,Communications,Elliptical,2022-02-07
+SAT-765,Russia,Communications,GEO,2004-06-13
+SAT-766,ESA,Navigation,Elliptical,2020-04-09
+SAT-767,China,Communications,MEO,2022-12-01
+SAT-768,ESA,Science,GEO,1995-06-25
+SAT-769,Russia,Navigation,LEO,1994-07-27
+SAT-770,China,Navigation,Elliptical,2011-04-08
+SAT-771,Luxembourg,Earth Observation,LEO,2019-11-02
+SAT-772,USA,Science,LEO,1997-04-05
+SAT-773,USA,Navigation,GEO,1998-01-04
+SAT-774,USA,Earth Observation,Elliptical,2002-06-10
+SAT-775,China,Science,GEO,2021-09-26
+SAT-776,China,Navigation,LEO,2005-08-18
+SAT-777,ESA,Earth Observation,Elliptical,1996-06-03
+SAT-778,Luxembourg,Earth Observation,LEO,2016-11-23
+SAT-779,China,Earth Observation,LEO,1990-11-04
+SAT-780,Luxembourg,Earth Observation,LEO,1996-10-03
+SAT-781,Russia,Navigation,GEO,2012-06-18
+SAT-782,USA,Navigation,Elliptical,2020-02-07
+SAT-783,Luxembourg,Communications,MEO,2022-09-16
+SAT-784,USA,Science,Elliptical,2013-02-22
+SAT-785,USA,Communications,LEO,2010-01-18
+SAT-786,Russia,Earth Observation,Elliptical,2013-11-20
+SAT-787,Russia,Navigation,GEO,2012-01-19
+SAT-788,Russia,Earth Observation,MEO,2003-02-01
+SAT-789,USA,Navigation,MEO,2010-03-17
+SAT-790,USA,Navigation,LEO,2007-12-24
+SAT-791,ESA,Communications,GEO,2012-03-22
+SAT-792,Luxembourg,Navigation,MEO,2008-05-25
+SAT-793,Luxembourg,Science,MEO,2009-10-20
+SAT-794,China,Communications,MEO,2016-01-08
+SAT-795,ESA,Navigation,Elliptical,2021-01-26
+SAT-796,USA,Communications,MEO,1990-02-18
+SAT-797,China,Navigation,GEO,2018-08-05
+SAT-798,USA,Communications,LEO,1996-04-17
+SAT-799,China,Earth Observation,Elliptical,2006-02-22
+SAT-800,Russia,Communications,MEO,2000-11-20
+SAT-801,Luxembourg,Communications,Elliptical,2002-04-25
+SAT-802,China,Navigation,GEO,2007-08-12
+SAT-803,China,Navigation,MEO,2024-11-13
+SAT-804,China,Communications,GEO,1997-02-21
+SAT-805,ESA,Science,Elliptical,2022-01-13
+SAT-806,China,Communications,GEO,2010-11-11
+SAT-807,Russia,Communications,GEO,1993-01-06
+SAT-808,USA,Communications,LEO,2024-08-15
+SAT-809,China,Navigation,Elliptical,2006-04-17
+SAT-810,Luxembourg,Communications,Elliptical,2008-07-21
+SAT-811,China,Communications,Elliptical,2006-12-03
+SAT-812,Luxembourg,Navigation,Elliptical,2014-10-17
+SAT-813,China,Earth Observation,Elliptical,1991-11-01
+SAT-814,ESA,Navigation,LEO,1991-02-20
+SAT-815,Luxembourg,Navigation,GEO,2019-12-10
+SAT-816,Russia,Communications,MEO,1998-06-14
+SAT-817,Luxembourg,Science,LEO,2014-02-20
+SAT-818,ESA,Navigation,MEO,1991-04-06
+SAT-819,USA,Science,LEO,2001-01-27
+SAT-820,China,Science,LEO,2021-02-07
+SAT-821,Russia,Communications,MEO,2007-12-07
+SAT-822,Russia,Navigation,LEO,2008-03-24
+SAT-823,Luxembourg,Science,MEO,2006-05-06
+SAT-824,Luxembourg,Navigation,GEO,2018-09-09
+SAT-825,Luxembourg,Navigation,LEO,2005-10-13
+SAT-826,Luxembourg,Earth Observation,GEO,1996-08-09
+SAT-827,USA,Earth Observation,GEO,2009-07-07
+SAT-828,Russia,Science,LEO,2003-09-15
+SAT-829,USA,Earth Observation,MEO,2019-12-22
+SAT-830,China,Earth Observation,LEO,2018-06-27
+SAT-831,USA,Communications,Elliptical,2014-08-13
+SAT-832,China,Communications,Elliptical,2020-04-16
+SAT-833,Russia,Science,MEO,2016-05-22
+SAT-834,Russia,Science,Elliptical,1994-01-26
+SAT-835,Luxembourg,Science,MEO,1992-02-23
+SAT-836,Luxembourg,Communications,LEO,2023-04-05
+SAT-837,China,Earth Observation,MEO,1998-07-14
+SAT-838,Russia,Science,GEO,2000-09-22
+SAT-839,USA,Science,MEO,1990-04-04
+SAT-840,China,Navigation,Elliptical,2021-09-06
+SAT-841,China,Earth Observation,GEO,2019-06-21
+SAT-842,USA,Earth Observation,MEO,2024-07-20
+SAT-843,China,Navigation,GEO,2003-09-06
+SAT-844,Russia,Navigation,MEO,2006-07-01
+SAT-845,ESA,Earth Observation,Elliptical,2010-08-06
+SAT-846,Russia,Science,GEO,2008-05-10
+SAT-847,China,Earth Observation,GEO,2005-02-15
+SAT-848,USA,Communications,MEO,1991-01-07
+SAT-849,ESA,Science,MEO,1995-02-21
+SAT-850,USA,Communications,Elliptical,2016-10-03
+SAT-851,Luxembourg,Navigation,Elliptical,1999-06-10
+SAT-852,Russia,Communications,GEO,2015-10-28
+SAT-853,Luxembourg,Earth Observation,Elliptical,2000-06-21
+SAT-854,Luxembourg,Earth Observation,LEO,2015-06-18
+SAT-855,China,Earth Observation,GEO,1998-01-08
+SAT-856,China,Science,GEO,2010-11-23
+SAT-857,ESA,Science,Elliptical,2021-08-13
+SAT-858,China,Communications,GEO,2019-08-06
+SAT-859,China,Earth Observation,GEO,2008-11-05
+SAT-860,USA,Navigation,Elliptical,2015-01-21
+SAT-861,Russia,Communications,Elliptical,2006-08-20
+SAT-862,Luxembourg,Science,MEO,2013-08-09
+SAT-863,China,Science,LEO,2004-09-19
+SAT-864,China,Communications,MEO,2020-02-25
+SAT-865,USA,Communications,GEO,2013-08-20
+SAT-866,Russia,Communications,MEO,2000-05-02
+SAT-867,ESA,Navigation,MEO,2018-12-06
+SAT-868,Luxembourg,Navigation,GEO,2007-05-07
+SAT-869,Russia,Navigation,LEO,1995-10-02
+SAT-870,Russia,Science,Elliptical,1998-01-18
+SAT-871,Luxembourg,Communications,LEO,2009-09-08
+SAT-872,ESA,Navigation,Elliptical,1998-11-27
+SAT-873,USA,Communications,GEO,2010-02-10
+SAT-874,USA,Earth Observation,LEO,1990-04-13
+SAT-875,USA,Earth Observation,Elliptical,1991-03-13
+SAT-876,Luxembourg,Earth Observation,GEO,1991-10-04
+SAT-877,China,Earth Observation,MEO,1997-06-26
+SAT-878,China,Navigation,MEO,2022-03-12
+SAT-879,Russia,Communications,LEO,2013-11-22
+SAT-880,USA,Communications,GEO,2010-07-07
+SAT-881,Russia,Communications,MEO,2006-08-20
+SAT-882,Luxembourg,Science,Elliptical,2015-09-19
+SAT-883,Luxembourg,Earth Observation,MEO,1996-05-08
+SAT-884,USA,Navigation,GEO,2021-04-23
+SAT-885,ESA,Communications,GEO,1992-02-12
+SAT-886,Russia,Communications,MEO,2006-07-11
+SAT-887,ESA,Navigation,MEO,2001-11-13
+SAT-888,USA,Science,LEO,2023-03-03
+SAT-889,USA,Navigation,Elliptical,2003-02-26
+SAT-890,Russia,Communications,LEO,2024-04-04
+SAT-891,ESA,Navigation,LEO,2022-12-18
+SAT-892,USA,Navigation,GEO,2014-07-07
+SAT-893,Russia,Science,MEO,1994-06-09
+SAT-894,ESA,Earth Observation,GEO,2023-05-03
+SAT-895,Luxembourg,Earth Observation,MEO,1999-08-02
+SAT-896,Luxembourg,Science,LEO,2016-08-10
+SAT-897,Luxembourg,Earth Observation,Elliptical,2014-04-18
+SAT-898,USA,Communications,GEO,1993-11-01
+SAT-899,USA,Earth Observation,LEO,2011-10-24
+SAT-900,Russia,Earth Observation,MEO,2007-01-06
+SAT-901,ESA,Communications,LEO,1997-12-13
+SAT-902,Luxembourg,Science,Elliptical,2013-12-25
+SAT-903,China,Navigation,GEO,2021-09-22
+SAT-904,Russia,Communications,GEO,2002-07-21
+SAT-905,Russia,Communications,LEO,2012-04-18
+SAT-906,Luxembourg,Communications,Elliptical,2007-03-03
+SAT-907,USA,Communications,MEO,2022-01-09
+SAT-908,Russia,Communications,LEO,1994-11-06
+SAT-909,ESA,Navigation,Elliptical,2016-08-27
+SAT-910,USA,Science,GEO,1996-11-21
+SAT-911,Luxembourg,Earth Observation,Elliptical,1999-11-03
+SAT-912,Luxembourg,Science,LEO,2013-10-15
+SAT-913,ESA,Science,MEO,1996-12-25
+SAT-914,Russia,Navigation,MEO,2015-06-08
+SAT-915,Luxembourg,Science,MEO,2013-08-26
+SAT-916,ESA,Navigation,Elliptical,2023-01-26
+SAT-917,Luxembourg,Communications,LEO,1998-08-27
+SAT-918,China,Science,GEO,2014-05-19
+SAT-919,China,Science,LEO,2014-07-23
+SAT-920,ESA,Navigation,GEO,2012-12-22
+SAT-921,Russia,Navigation,MEO,2017-04-24
+SAT-922,USA,Navigation,LEO,2015-09-01
+SAT-923,ESA,Navigation,Elliptical,2011-12-21
+SAT-924,Russia,Communications,MEO,2009-02-09
+SAT-925,Luxembourg,Navigation,LEO,2003-07-04
+SAT-926,ESA,Communications,Elliptical,2019-09-28
+SAT-927,ESA,Science,GEO,2023-07-11
+SAT-928,USA,Communications,Elliptical,2019-05-24
+SAT-929,ESA,Earth Observation,GEO,2022-06-13
+SAT-930,USA,Science,LEO,2006-06-01
+SAT-931,Luxembourg,Earth Observation,MEO,2019-09-04
+SAT-932,Luxembourg,Communications,MEO,2007-04-26
+SAT-933,USA,Science,Elliptical,2002-01-09
+SAT-934,China,Communications,GEO,2019-04-04
+SAT-935,USA,Science,LEO,2003-01-15
+SAT-936,China,Science,MEO,1992-12-03
+SAT-937,China,Earth Observation,LEO,2022-05-22
+SAT-938,Russia,Earth Observation,MEO,2002-02-24
+SAT-939,China,Navigation,Elliptical,2007-05-09
+SAT-940,USA,Earth Observation,GEO,2021-07-17
+SAT-941,Luxembourg,Navigation,LEO,2023-09-09
+SAT-942,Luxembourg,Earth Observation,Elliptical,2020-10-22
+SAT-943,Russia,Communications,MEO,2016-09-13
+SAT-944,ESA,Earth Observation,GEO,1994-08-02
+SAT-945,USA,Earth Observation,LEO,2013-03-25
+SAT-946,Luxembourg,Earth Observation,GEO,1993-07-10
+SAT-947,Russia,Earth Observation,GEO,1991-12-24
+SAT-948,ESA,Communications,MEO,2002-01-21
+SAT-949,Russia,Science,LEO,2023-11-12
+SAT-950,Luxembourg,Navigation,GEO,1996-01-02
+SAT-951,Luxembourg,Navigation,LEO,2015-03-02
+SAT-952,Luxembourg,Science,GEO,2024-01-04
+SAT-953,Luxembourg,Science,LEO,2021-05-10
+SAT-954,Luxembourg,Communications,MEO,1994-06-08
+SAT-955,ESA,Communications,GEO,2020-12-21
+SAT-956,ESA,Communications,MEO,2014-03-01
+SAT-957,ESA,Communications,LEO,1997-08-11
+SAT-958,China,Earth Observation,Elliptical,2000-07-15
+SAT-959,ESA,Science,MEO,2022-01-14
+SAT-960,China,Science,LEO,2018-10-28
+SAT-961,Luxembourg,Earth Observation,LEO,2009-06-06
+SAT-962,Russia,Earth Observation,MEO,1993-11-26
+SAT-963,China,Navigation,GEO,1991-04-11
+SAT-964,ESA,Science,Elliptical,2020-09-06
+SAT-965,Luxembourg,Science,MEO,2006-12-17
+SAT-966,USA,Navigation,MEO,1996-01-05
+SAT-967,USA,Communications,MEO,2017-05-18
+SAT-968,China,Earth Observation,GEO,2015-07-01
+SAT-969,USA,Navigation,GEO,2012-12-09
+SAT-970,China,Science,MEO,2024-07-19
+SAT-971,China,Communications,LEO,2013-09-23
+SAT-972,Luxembourg,Science,LEO,2016-08-24
+SAT-973,Luxembourg,Earth Observation,Elliptical,2002-04-20
+SAT-974,China,Navigation,MEO,2008-09-21
+SAT-975,ESA,Navigation,LEO,2003-11-01
+SAT-976,USA,Communications,MEO,2013-08-07
+SAT-977,USA,Earth Observation,Elliptical,2010-05-16
+SAT-978,Russia,Navigation,GEO,1995-03-05
+SAT-979,Russia,Communications,GEO,2022-01-05
+SAT-980,ESA,Science,Elliptical,2001-08-12
+SAT-981,ESA,Navigation,LEO,2012-05-13
+SAT-982,Luxembourg,Communications,LEO,2024-10-14
+SAT-983,ESA,Science,GEO,1994-07-02
+SAT-984,ESA,Earth Observation,MEO,2018-04-12
+SAT-985,Luxembourg,Science,MEO,2001-12-07
+SAT-986,ESA,Communications,Elliptical,2004-05-26
+SAT-987,USA,Navigation,MEO,1992-10-26
+SAT-988,ESA,Communications,Elliptical,2011-02-06
+SAT-989,China,Science,LEO,2000-01-17
+SAT-990,Russia,Earth Observation,Elliptical,2015-01-16
+SAT-991,China,Navigation,MEO,2017-08-19
+SAT-992,ESA,Science,Elliptical,2024-11-26
+SAT-993,ESA,Communications,LEO,2016-03-12
+SAT-994,ESA,Science,Elliptical,2018-01-28
+SAT-995,China,Science,MEO,2001-12-27
+SAT-996,Luxembourg,Earth Observation,Elliptical,2018-12-01
+SAT-997,Russia,Navigation,MEO,2021-02-10
+SAT-998,ESA,Science,LEO,2017-02-06
+SAT-999,Russia,Earth Observation,GEO,2011-02-06
