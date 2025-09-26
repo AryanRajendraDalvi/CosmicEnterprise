@@ -55,30 +55,109 @@ class SpaceWeatherDataIngester:
         self.last_update = None
         
     def fetch_noaa_kp_data(self, days_back: int = 365) -> pd.DataFrame:
-        """Fetch historical Kp index data from NOAA"""
+        """Fetch historical Kp index data from NOAA.
+        Tries real-time NOAA API first, falls back to synthetic generator if unavailable.
+        Returns the same columns as before: timestamp, kp_index, data_source.
+        """
         print("🌌 Fetching NOAA Kp index data...")
-        
-        # Generate synthetic but realistic Kp data based on statistical patterns
-        # In production, this would fetch from NOAA's actual API
-        dates = pd.date_range(end=datetime.now(), periods=days_back*8, freq='3H')  # 8 readings per day
-        
-        # Create realistic Kp patterns based on solar cycle
-        np.random.seed(42)  # For reproducibility
-        base_activity = np.sin(np.linspace(0, 2*np.pi, len(dates))) * 2 + 3  # Solar cycle variation
-        noise = np.random.exponential(0.5, len(dates))  # Exponential for storm events
-        storm_events = np.random.choice([0, 1], size=len(dates), p=[0.95, 0.05])  # 5% storm probability
-        storm_intensity = np.random.exponential(2, len(dates)) * storm_events
-        
-        kp_values = np.clip(base_activity + noise + storm_intensity, 0, 9)
-        
-        df = pd.DataFrame({
-            'timestamp': dates,
-            'kp_index': kp_values,
-            'data_source': 'NOAA_SWPC'
-        })
-        
-        print(f"✅ Fetched {len(df)} Kp index records")
-        return df
+        url = "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
+        try:
+            resp = requests.get(url, timeout=10)
+            resp.raise_for_status()
+            payload = resp.json()
+            # NOAA sometimes returns a list of dicts or a dict with nested lists
+            if isinstance(payload, dict) and 'data' in payload:
+                records = payload['data']
+            else:
+                records = payload
+            df = pd.DataFrame.from_records(records)
+            
+            # Normalize expected fields; prefer numeric 'kp_index', else parse 'kp' like '2Z'
+            time_col = 'time_tag' if 'time_tag' in df.columns else ('time' if 'time' in df.columns else None)
+            kp_col = 'kp_index' if 'kp_index' in df.columns else ('kp' if 'kp' in df.columns else None)
+            if time_col and kp_col:
+                print(f"🔍 NOAA data columns: {list(df.columns)}")
+                print(f"🔍 Using time_col='{time_col}', kp_col='{kp_col}'")
+                print(f"🔍 Raw data shape: {df.shape}")
+                
+                df['timestamp'] = pd.to_datetime(df[time_col], errors='coerce')
+                if kp_col == 'kp_index':
+                    df['kp_index'] = pd.to_numeric(df[kp_col], errors='coerce')
+                else:
+                    # NOAA 'kp' can be strings like '2Z' – extract leading numeric part
+                    df['kp_index'] = pd.to_numeric(df[kp_col].astype(str).str.extract(r'^(\d+(?:\.\d+)?)')[0], errors='coerce')
+                print(f"🔍 Sample raw data:\n{df[[time_col, kp_col, 'timestamp', 'kp_index']].head()}")
+                print(f"🔍 NaN counts - timestamp: {df['timestamp'].isna().sum()}, kp_index: {df['kp_index'].isna().sum()}")
+                
+                df = df[['timestamp', 'kp_index']]
+                df = df.dropna(subset=['timestamp'])
+                print(f"🔍 After timestamp cleaning: {df.shape}")
+                if len(df) == 0:
+                    print("⚠️ All timestamps invalid. Falling back to synthetic.")
+                    raise ValueError("All timestamps invalid")
+                
+                df = df.set_index('timestamp').sort_index()
+                print(f"🔍 After setting index: {df.shape}")
+                print(f"🔍 Date range: {df.index.min()} to {df.index.max()}")
+                
+                # Convert to 3-hour cadence
+                df_resampled = df.resample('3H').mean()
+                print(f"🔍 After 3H resample: {df_resampled.shape}")
+                print(f"🔍 Resampled NaN count: {df_resampled['kp_index'].isna().sum()}")
+                
+                df = df_resampled.reset_index()
+                df['kp_index'] = df['kp_index'].replace([np.inf, -np.inf], np.nan)
+                df = df.dropna(subset=['kp_index'])
+                print(f"🔍 After NaN removal: {df.shape}")
+                
+                # If resampling failed, try using raw data with hourly resampling
+                if len(df) == 0:
+                    print("⚠️ 3H resample failed. Trying 1H resample...")
+                    df_raw = df_resampled.resample('1H').mean().reset_index()
+                    df_raw = df_raw.dropna(subset=['kp_index'])
+                    if len(df_raw) > 0:
+                        # Downsample 1H to 3H manually
+                        df_raw['hour'] = df_raw['timestamp'].dt.hour
+                        df_raw = df_raw[df_raw['hour'] % 3 == 0]  # Keep every 3rd hour
+                        df = df_raw[['timestamp', 'kp_index']]
+                        print(f"🔍 After 1H->3H manual: {df.shape}")
+                
+                if len(df) == 0:
+                    print("⚠️ All resampling methods failed. Using raw data...")
+                    df = df_resampled.reset_index()
+                    df = df.dropna(subset=['kp_index'])
+                    print(f"🔍 Using raw data: {df.shape}")
+                
+                df['kp_index'] = df['kp_index'].clip(lower=0, upper=9)
+                df['data_source'] = 'NOAA_SWPC'
+                # Keep approximately days_back*8 recent samples
+                result = df.tail(days_back * 8)
+                print(f"🔍 Final result shape: {result.shape}")
+                if len(result) == 0 or result['kp_index'].isna().all():
+                    print("⚠️ NOAA data became empty/NaN after processing. Falling back to synthetic.")
+                    raise ValueError("NOAA result empty or NaN-only after resample")
+                print(f"✅ Fetched {len(result)} Kp index records from NOAA")
+                return result[['timestamp', 'kp_index', 'data_source']]
+            else:
+                print(f"⚠️ Unexpected NOAA schema. Available columns: {list(df.columns)}")
+                raise ValueError("Unexpected NOAA response schema")
+        except Exception as e:
+            print(f"⚠️ NOAA fetch failed ({e}). Falling back to synthetic data.")
+            # Fallback: synthetic generator (preserve previous behavior)
+            dates = pd.date_range(end=datetime.now(), periods=days_back*8, freq='3H')
+            np.random.seed(42)
+            base_activity = np.sin(np.linspace(0, 2*np.pi, len(dates))) * 2 + 3
+            noise = np.random.exponential(0.5, len(dates))
+            storm_events = np.random.choice([0, 1], size=len(dates), p=[0.95, 0.05])
+            storm_intensity = np.random.exponential(2, len(dates)) * storm_events
+            kp_values = np.clip(base_activity + noise + storm_intensity, 0, 9)
+            df = pd.DataFrame({
+                'timestamp': dates,
+                'kp_index': kp_values,
+                'data_source': 'NOAA_SWPC'
+            })
+            print(f"✅ Fetched {len(df)} Kp index records (synthetic)")
+            return df[['timestamp', 'kp_index', 'data_source']]
     
     def fetch_solar_wind_data(self, days_back: int = 365) -> pd.DataFrame:
         """Fetch solar wind data including speed, IMF Bz, and density"""
@@ -140,7 +219,23 @@ class SpaceWeatherDataIngester:
         
         # Merge datasets
         combined = pd.merge(kp_data, solar_wind_3h, left_index=True, right_index=True, how='outer')
-        combined = combined.fillna(method='ffill').fillna(method='bfill')
+        
+        # Cleaning: remove duplicate timestamps, sort, replace infs
+        combined = combined[~combined.index.duplicated(keep='last')]
+        combined = combined.sort_index()
+        combined = combined.replace([np.inf, -np.inf], np.nan)
+
+        # Cleaning: forward/backward fill core numeric columns
+        core_cols = ['solar_wind_speed', 'imf_bz', 'density', 'proton_flux', 'kp_index']
+        for col in core_cols:
+            if col in combined.columns:
+                combined[col] = combined[col].ffill().bfill()
+        
+        # Final guarantee: fill any remaining NaNs with column medians
+        for col in core_cols:
+            if col in combined.columns:
+                median_val = combined[col].median()
+                combined[col] = combined[col].fillna(median_val)
         
         # Add derived features
         combined['storm_indicator'] = (combined['kp_index'] >= 5).astype(int)
@@ -444,6 +539,19 @@ class SpaceWeatherForecaster:
         # Sort by timestamp
         data = data.sort_values('timestamp').reset_index(drop=True)
         
+        # Clean NaNs/Infs in features and target
+        cols_to_clean = feature_cols + [target_col]
+        for col in cols_to_clean:
+            if col in data.columns:
+                data[col] = pd.to_numeric(data[col], errors='coerce')
+        data = data.replace([np.inf, -np.inf], np.nan)
+        for col in cols_to_clean:
+            if col in data.columns:
+                # fill with forward/backward then median
+                data[col] = data[col].ffill().bfill()
+                median_val = data[col].median()
+                data[col] = data[col].fillna(median_val)
+        
         # Create sequences for time series prediction
         sequence_length = 24  # Use 24 hours of history (8 data points at 3-hour intervals)
         X, y = [], []
@@ -459,6 +567,20 @@ class SpaceWeatherForecaster:
         
         X = np.array(X)
         y = np.array(y)
+        
+        # As a last resort, drop any rows with NaNs that slipped through
+        if (np.isnan(X).any()) or (np.isnan(y).any()):
+            mask = ~np.isnan(X).any(axis=1)
+            X = X[mask]
+            y = y[:len(mask)][mask]
+        # If y still has NaNs (e.g., trailing target rows), drop them consistently
+        if np.isnan(y).any():
+            valid = ~np.isnan(y)
+            y = y[valid]
+            X = X[:len(valid)][valid]
+        # Absolute final fallback: if empty, raise clear error
+        if len(X) == 0 or len(y) == 0:
+            raise ValueError("After cleaning, no valid samples remain for training. Try increasing data window.")
         
         print(f"✅ Created {len(X)} training samples with {X.shape[1]} features each")
         return X, y
@@ -477,6 +599,16 @@ class SpaceWeatherForecaster:
         split_idx = int(0.8 * len(X))
         X_train, X_test = X[:split_idx], X[split_idx:]
         y_train, y_test = y[:split_idx], y[split_idx:]
+        
+        # Guard: drop any residual NaNs in y sets
+        if np.isnan(y_train).any():
+            mask = ~np.isnan(y_train)
+            X_train = X_train[mask]
+            y_train = y_train[mask]
+        if np.isnan(y_test).any():
+            mask = ~np.isnan(y_test)
+            X_test = X_test[mask]
+            y_test = y_test[mask]
         
         # Scale features
         X_train_scaled = self.scaler.fit_transform(X_train)
@@ -586,7 +718,15 @@ class SpaceWeatherForecaster:
             raise ValueError(f"Need at least {sequence_length} data points for forecasting")
         
         # Get latest data
-        latest_data = current_data.tail(sequence_length)
+        latest_data = current_data.tail(sequence_length).copy()
+        # Ensure feature columns are clean of NaNs/Infs
+        latest_data = latest_data.replace([np.inf, -np.inf], np.nan)
+        for col in self.feature_columns:
+            if col in latest_data.columns:
+                latest_data[col] = pd.to_numeric(latest_data[col], errors='coerce')
+                latest_data[col] = latest_data[col].ffill().bfill()
+                median_val = latest_data[col].median()
+                latest_data[col] = latest_data[col].fillna(median_val)
         
         forecasts = {}
         
@@ -1477,7 +1617,7 @@ def main():
     
     # Initialize system
     system = SpaceWeatherInsuranceSystem()
-    
+     
     try:
         # Check if user wants quick demo or full interactive session
         print("\n🚀 Choose mode:")
